@@ -52,7 +52,7 @@ void PrintStringArray(string[] arr)
     System.Console.Write("[");
     for (int i = 0; i < length; i++)
     {
-        Console.Write(arr[i] + (i == length-1 ? "" : ", "));
+        Console.Write(arr[i] + (i == length - 1 ? "" : ", "));
     }
     System.Console.WriteLine("]");
 }
